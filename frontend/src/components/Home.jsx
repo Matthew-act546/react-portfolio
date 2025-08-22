@@ -1,3 +1,13 @@
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faYoutube,
+  faGithub,
+  faLinkedin,
+  faHashnode
+} from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faArrowUp } from "@fortawesome/free-solid-svg-icons";
+
 import myImage from "../images/my-image.png";
 
 export default function Home() {
@@ -17,49 +27,63 @@ export default function Home() {
                 leave a lasting impression.
               </span>
             </h1>
-            <div className="d-flex gap-3 mb-3">
+
+            <div className="d-flex gap-2 mb-3">
               <a
                 href="https://www.facebook.com/LearnToCodeWithMatthew/"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Facebook"
               >
-                <i className="fab fa-facebook link-logo fs-1"></i>
+                <FontAwesomeIcon icon={faFacebook} className="fs-1 link-logo" />
               </a>
+
               <a
                 href="https://www.youtube.com/@LearningToCodeWithMatthew"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="YouTube"
               >
-                <i className="fa-brands fa-youtube link-logo fs-1"></i>
+                <FontAwesomeIcon icon={faYoutube} className="fs-1 link-logo" />
               </a>
+
               <a
                 href="https://github.com/Matthew-act546"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="GitHub"
               >
-                <i className="fab fa-github link-logo fs-1"></i>
+                <FontAwesomeIcon icon={faGithub} className="fs-1 link-logo" />
               </a>
+
               <a
                 href="https://www.linkedin.com/in/matthew-act546"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="LinkedIn"
               >
-                <i className="fab fa-linkedin link-logo fs-1"></i>
+                <FontAwesomeIcon icon={faLinkedin} className="fs-1 link-logo" />
               </a>
+
               <a
                 href="https://hashnode.com/@chewwwy"
                 target="_blank"
                 rel="noopener noreferrer"
                 aria-label="Hashnode"
               >
-                <i className="fab fa-hashnode link-logo fs-1"></i>
+                <FontAwesomeIcon icon={faHashnode} className="fs-1 link-logo" />
               </a>
-              <a href="mailto:learntocodewithmatthew@gmail.com" aria-label="Email">
-                <i className="fa-solid fa-envelope link-logo text-white fs-1"></i>
+
+              <a
+                href="mailto:learntocodewithmatthew@gmail.com"
+                aria-label="Email"
+              >
+                
+                <FontAwesomeIcon
+                  icon={faEnvelope}
+                  className="fs-1 link-logo"
+                />
+                
               </a>
             </div>
 
@@ -70,7 +94,7 @@ export default function Home() {
             >
               Get in touch
               <span>
-                <i className="fas fa-arrow-up rotate-icon"></i>
+                <i><FontAwesomeIcon icon={faArrowUp} className="rotate-icon" /></i>
               </span>
             </a>
           </div>
