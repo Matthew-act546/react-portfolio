@@ -99,7 +99,7 @@ export default function Home() {
             </a>
           </div>
 
-          <div className="col-md-5 mt-4 order-1 order-md-2 intros">
+          <div className="col-md-5 mt-4 order-1 order-md-2 intros d-flex justify-content-center align-items-center">
             <div className="circle-border mx-auto">
               <img
                 src={myImage}

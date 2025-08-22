@@ -27,17 +27,16 @@
   border: 5px solid white;
   border-radius: 50%;
   animation: radiateGlow 3s infinite ease-in-out;
-  position: relative;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+ 
   background-color: white;
+  width: 20vw;
+  height: 20vw;
+  max-width: 600px;
+  max-height: 600px;
+  min-width: 210px;
+  min-height: 210px;
 
-  @include media-breakpoint-down(md) {
-    width: 220px;
-    height: 220px;
-    background-color: white;
-  }
+ 
 
 }
 @keyframes radiateGlow {
