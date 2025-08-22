@@ -31,15 +31,15 @@ export default function Testimonials() {
               <div className="carousel-item active">
                 <div className="testimonials__card">
                   <p className="lh-lg">
-                    <FontAwesomeIcon icon={faQuoteLeft} /> Matthew's technical proficiency and excellent
+                    <FontAwesomeIcon icon={faQuoteLeft} className="text-primary"/>  Matthew's technical proficiency and excellent
                     communication skills were crucial in our Science, Technology, and Society group project which
                     involved developing a user-friendly website for accounting learning materials. His dedication
                     and our high grade reflected his success.
-                    <FontAwesomeIcon icon={faQuoteRight} />
+                    <FontAwesomeIcon icon={faQuoteRight} className="text-primary"/>
 
                     <div className="ratings p-1">
                       {[...Array(5)].map((_, i) => (
-                        <FontAwesomeIcon key={i} icon={faStar} />
+                        <FontAwesomeIcon key={i} icon={faStar} className="text-primary"/>
                       ))}
                     </div>
                   </p>
@@ -57,14 +57,14 @@ export default function Testimonials() {
               <div className="carousel-item">
                 <div className="testimonials__card">
                   <p className="lh-lg">
-                    <FontAwesomeIcon icon={faQuoteLeft} /> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                    <FontAwesomeIcon icon={faQuoteLeft} className="text-primary"/> Lorem ipsum dolor sit amet, consectetur adipisicing elit.
                     Quam labore dicta eos similique blanditiis ad quasi! In maxime dolorem dolorum nisi. Lorem ipsum
                     dolor, sit amet consectetur adipisicing elit. Tempore, magni.
-                    <FontAwesomeIcon icon={faQuoteRight} />
+                    <FontAwesomeIcon icon={faQuoteRight} className="text-primary"/> 
 
                     <div className="ratings p-1">
                       {[...Array(5)].map((_, i) => (
-                        <FontAwesomeIcon key={i} icon={faStar} />
+                        <FontAwesomeIcon key={i} icon={faStar} className="text-primary"/>
                       ))}
                     </div>
                   </p>

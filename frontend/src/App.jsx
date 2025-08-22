@@ -7,15 +7,8 @@ import Portfolio from "./components/Portfolio";
 import GetStarted from "./components/GetStarted";
 import Footer from "./components/Footer";
 
-import React, { useEffect } from "react";
-import logo from "./images/circular-logo.png";
-
-
 function App() {
-   useEffect(() => {
-    const favicon = document.querySelector("link[rel='icon']");
-    if (favicon) favicon.href = logo; 
-  }, []);
+  
   return (
     <>
       <Navbar />
