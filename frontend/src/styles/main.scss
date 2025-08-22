@@ -1,7 +1,17 @@
-@use 'variables' as *;
+@use 'custom';
 
-body {
-  background-color: $primary-color;
-  color: $text-color;
-  font-family: sans-serif;
-}
+// Components
+@use 'components/animations';
+@use 'components/buttons';
+@use 'components/mixins';
+@use 'components/typography';
+
+// Sections
+@use 'sections/faq';
+@use 'sections/footer';
+@use 'sections/get-started';
+@use 'sections/intro-section';
+@use 'sections/navbar';
+@use 'sections/portfolio';
+@use 'sections/services';
+@use 'sections/testimonials';
