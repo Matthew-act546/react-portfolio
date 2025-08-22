@@ -1,6 +1,8 @@
 import videoTutorial from "../images/services/video-tutorial-62.png";
 import codingImage from "../images/services/coding-2-31.png";
 import uiDesignImage from "../images/services/ui-design-26.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Services() {
   return (
@@ -57,7 +59,7 @@ export default function Services() {
                 <button type="button" className="rounded-pill border-primary btn-rounded">
                   Learn More!
                   <span>
-                    <i className="fas fa-arrow-up rotate-icon"></i>
+                    <i><FontAwesomeIcon icon={faArrowUp} className="rotate-icon" /></i>
                   </span>
                 </button>
               </a>
@@ -92,7 +94,7 @@ export default function Services() {
                 <button type="button" className="rounded-pill border-primary btn-rounded">
                   Learn More!
                   <span>
-                    <i className="fas fa-arrow-up rotate-icon"></i>
+                    <i><FontAwesomeIcon icon={faArrowUp} className="rotate-icon" /></i>
                   </span>
                 </button>
               </a>
@@ -117,7 +119,7 @@ export default function Services() {
                 <button type="button" className="rounded-pill border-primary btn-rounded">
                   Learn More!
                   <span>
-                    <i className="fas fa-arrow-up rotate-icon"></i>
+                    <i><FontAwesomeIcon icon={faArrowUp} className="rotate-icon" /></i>
                   </span>
                 </button>
               </a>
